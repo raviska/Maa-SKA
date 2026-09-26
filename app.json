@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "MAAI: Heal The Mother Earth Save Carbon",
+    "slug": "maai-heal-mother-earth-save-carbon",
+    "version": "1.0.0",
+    "sdkVersion": "57.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.maai.healmotherearth"
+    },
+    "ios": {
+      "bundleIdentifier": "com.maai.healmotherearth"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow MAAI to scan QR codes for your AI carbon impact."
+        }
+      ]
+    ]
+  }
+}
